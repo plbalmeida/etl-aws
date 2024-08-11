@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram name="Página-1" id="qymr9s4ONJAOOVNrwKgb">
+    <mxGraphModel dx="1306" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-1" value="extract" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-2" value="transform" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-3" value="load" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="640" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2Nlbmb2SEIiZ4BsPeOTe-5" target="2Nlbmb2SEIiZ4BsPeOTe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-5" value="transformed" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="565" y="430" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2Nlbmb2SEIiZ4BsPeOTe-12" target="2Nlbmb2SEIiZ4BsPeOTe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-12" value="raw" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="405" y="430" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-13" value="final" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="726" y="430" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2Nlbmb2SEIiZ4BsPeOTe-1" target="2Nlbmb2SEIiZ4BsPeOTe-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2Nlbmb2SEIiZ4BsPeOTe-2" target="2Nlbmb2SEIiZ4BsPeOTe-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2Nlbmb2SEIiZ4BsPeOTe-3" target="2Nlbmb2SEIiZ4BsPeOTe-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-20" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;gradientColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="260" width="520" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-21" value="Pipeline de ETL" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="260" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-22" value="&lt;b&gt;1&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="290" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-23" value="&lt;b&gt;2&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="510" y="290" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-26" value="&lt;b&gt;3&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="670" y="290" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-27" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;extract:&lt;/b&gt;&amp;nbsp;os dados brutos do preço do petróleo bruto são obtidos através da biblioteca `ipeadatapy`, e carregados em um DataFrame do PySpark. O dados obtidos são persistidos em formato Parquet na camada `raw`. Durante essa etapa, os dados são transferidos da origem para o ambiente de processamento, sem modificações, assegurando que todos os registros relevantes estejam disponíveis para o processamento subsequente.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;transform:&lt;/b&gt;&amp;nbsp;registros com valores ausentes em `VALUE (US$)` são removidos para garantir a integridade dos cálculos. Em seguida, os dados são agrupados por ano e mês para calcular a média mensal do preço do petróleo bruto. A seguir, os dados do mês corrente são excluídos para evitar distorções em análises ou previsões, já que o mês corrente pode ter dados incompletos. Além disso, lags (defasagens) de até 6 meses são criadas para capturar a dependência temporal, e estatísticas móveis como média, desvio padrão, valor mínimo e máximo dos últimos 6 meses são calculadas. Componentes sazonais, como trimestre, também são extraídos para melhor representar as variações temporais no modelo.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;load:&lt;/b&gt; os dados transformados e enriquecidos são preparados para uso em análises ou modelagem de machine learning. O DataFrame final, contendo todas as features necessárias, é salvo em formato Parquet na camada `final`. Esta etapa garante que os dados estejam prontos para serem consumidos por outras aplicações ou processos, proporcionando um formato eficiente e otimizado para consultas e processamento adicional.&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="890" y="260" width="570" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-28" value="&lt;b&gt;1&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="859" y="266" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-29" value="&lt;b&gt;2&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="859" y="351" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2Nlbmb2SEIiZ4BsPeOTe-30" value="&lt;b&gt;3&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="859" y="466" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
